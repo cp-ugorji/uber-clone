@@ -6,7 +6,12 @@
       </div>
 
       <div class="grid grid-cols-2 gap-3 my-3">
-        <ServiceSelectLarge text="Ride" imageWidth="74" image="ride" />
+        <ServiceSelectLarge
+          @click="router.push('/directions')"
+          text="Ride"
+          imageWidth="74"
+          image="ride"
+        />
         <ServiceSelectLarge
           text="Food"
           imageWidth="72"
